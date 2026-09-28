@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="SwingDowntown"
-run/main_scene="uid://e7dr4d8iub53"
+run/main_scene="uid://cv2yumlw0qpuv"
 config/features=PackedStringArray("4.7", "Forward Plus")
 config/icon="res://icon.svg"
 
@@ -22,9 +22,14 @@ Dialogic="*uid://ds2q0uclmolvu"
 [dialogic]
 
 directories/dch_directory={
-"character": "res://characters/character.dch"
+"Silem": "res://characters/Silem.dch",
+"cherail": "res://characters/cherail.dch",
+"kedu": "res://characters/kedu.dch",
+"mainChar": "res://characters/mainChar.dch",
+"mezjizia": "res://characters/mezjizia.dch"
 }
 directories/dtl_directory={
+"introScene": "res://timelines/introScene.dtl",
 "timeline": "res://timelines/timeline.dtl"
 }
 layout/style_directory={
@@ -34,7 +39,9 @@ layout/style_directory={
 glossary/default_case_sensitive=true
 layout/style_list=["res://styles/New_File.tres"]
 layout/default_style="res://styles/New_File.tres"
-variables={}
+variables={
+"PlayerName": "Astro"
+}
 text/letter_speed=0.01
 text/initial_text_reveal_skippable=true
 text/text_reveal_skip_delay=0.1
